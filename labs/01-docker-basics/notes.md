@@ -18,6 +18,7 @@ Container:
 |--------|-------------|
 | Created | Container created but PID 1 not started |
 | Running | Container is actively executing |
+| Paused | All processes are frozen using cgroups freezer functionality |
 | Exited | PID 1 has terminated |
 | Removed | Container metadata deleted |
 
