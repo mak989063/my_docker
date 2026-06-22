@@ -47,3 +47,17 @@ docker rm -f <container_name>
 ## Remove Image
 
 docker rmi <image_name>
+
+#Commands Associated with Each State of the Docker container
+
+docker create <container_name>     # Created
+
+docker start <container_name>      # Running
+
+docker pause <container_name>      # Paused
+
+docker unpause <container_name>    # Running again
+
+docker stop <container_name>       # Exited
+
+docker rm <container_name>         # Removed
