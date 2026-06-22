@@ -48,7 +48,7 @@ docker rm -f <container_name>
 
 docker rmi <image_name>
 
-#Commands Associated with Each State of the Docker container
+## Commands Associated with Each State of the Docker container
 
 docker create <container_name>     # Created
 
