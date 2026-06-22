@@ -14,13 +14,12 @@ Container:
 
 ## Container Lifecycle
 
-Created
-↓
-Running
-↓
-Exited
-↓
-Removed
+| State | Description |
+|--------|-------------|
+| Created | Container created but PID 1 not started |
+| Running | Container is actively executing |
+| Exited | PID 1 has terminated |
+| Removed | Container metadata deleted |
 
 ## What is docker exec?
 
