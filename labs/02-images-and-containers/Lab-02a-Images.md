@@ -15,8 +15,7 @@ Example:
 
 ```text
 Ubuntu Image
-      |
-      v
+      ↓
 Ubuntu Container
 ```
 
@@ -78,15 +77,12 @@ Before Docker:
 
 ```text
 Developer Machine
-        |
-        v
+    ↓
 Works Fine
-        |
-        v
+    ↓
 Production Server
-        |
-        v
-Fails
+    ↓
+  Fails
 ```
 
 Problems:
@@ -194,9 +190,9 @@ Example:
 
 ```text
 Application Layer
-      |
+      ↓
 Nginx Layer
-      |
+      ↓
 Ubuntu Layer
 ```
 
@@ -380,32 +376,3 @@ Layers = Efficient Storage
 ```
 
 ---
-
-# Scaler Notes Mapping
-
-| Topic                  | Covered |
-| ---------------------- | ------- |
-| What is Docker         | Yes     |
-| Why Docker Was Created | Yes     |
-| Docker Images          | Yes     |
-| Docker Hub             | Yes     |
-| Image Layers           | Yes     |
-| Docker Pull Process    | Yes     |
-| Image Inspection       | Yes     |
-| Interview Questions    | Yes     |
-
-Next Lab:
-
-```text
-Lab 03 - Docker Containers
-```
-
-Topics:
-
-* docker run
-* docker ps
-* docker logs
-* docker exec
-* docker stop
-* docker rm
-* Container Lifecycle
