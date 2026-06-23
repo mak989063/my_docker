@@ -64,8 +64,7 @@ Result:
 
 ```text
 Image
-  |
-  v
+ ↓
 Container
 ```
 
@@ -83,15 +82,15 @@ Docker:
 
 ```text
 Docker CLI
-     |
+     ↓
 Docker Daemon
-     |
+     ↓
 Container Creation
-     |
+     ↓
 Linux Namespaces
-     |
+     ↓
 cgroups
-     |
+     ↓
 Container Process
 ```
 
@@ -188,13 +187,13 @@ Container -> Seconds
 
 ```text
 Created
-   |
+   ↓
 Running
-   |
+   ↓
 Paused
-   |
+   ↓
 Stopped
-   |
+   ↓
 Deleted
 ```
 
@@ -571,39 +570,3 @@ docker inspect <container-id>
 ```
 
 ---
-
-# Scaler Notes Mapping
-
-| Topic               | Covered |
-| ------------------- | ------- |
-| What is Container   | Yes     |
-| Container Lifecycle | Yes     |
-| docker run          | Yes     |
-| docker ps           | Yes     |
-| docker logs         | Yes     |
-| docker exec         | Yes     |
-| docker stop         | Yes     |
-| docker rm           | Yes     |
-| Namespaces          | Yes     |
-| cgroups             | Yes     |
-| VM vs Container     | Yes     |
-| Interview Questions | Yes     |
-
----
-
-# Next Lab
-
-```text
-Lab 03 - Docker Architecture
-```
-
-Topics:
-
-* Docker Engine
-* Docker CLI
-* Docker Daemon
-* Docker Registry
-* Docker Client Server Architecture
-* Container Runtime
-* Linux Kernel Features
-* Interview Notes
