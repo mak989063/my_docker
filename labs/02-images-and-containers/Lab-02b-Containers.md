@@ -19,8 +19,7 @@ Example:
 
 ```text
 Nginx Image
-      |
-      v
+### ↓
 Nginx Container
 ```
 
